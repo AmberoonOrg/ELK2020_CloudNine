@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" 
+xmlns:link="http://www.xbrl.org/2003/linkbase" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:xbrli="http://www.xbrl.org/2003/instance" 
+xmlns:ffieci="http://www.ffiec.gov/cdr" 
+xmlns:iso4217="http://www.xbrl.org/2003/iso4217" 
+xmlns:ffiec051-2020-03-31="http://www.ffiec.gov/xbrl/call/report051/2020-03-31/v208" 
+xmlns:cc="http://www.ffiec.gov/xbrl/call/concepts"
+xsi:schemaLocation="http://www.ffiec.gov/xbrl/call/report051/2020-03-31/v208 http://www.ffiec.gov/xbrl/call/report051/2020-03-31/v208/call-report051-2020-03-31-v208.xsd http://www.ffiec.gov/xbrl/call/concepts http://www.ffiec.gov/xbrl/call/report051/2020-03-31/v208/concepts.xsd">
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.ffiec.gov/xbrl/call/report051/2020-03-31/v208/call-report051-2020-03-31-v208.xsd" />
+  <link:schemaRef xlink:type="simple" xlink:href="http://www.ffiec.gov/xbrl/call/report051/2020-03-31/v208/concepts.xsd"/>
+  <context id="CI_2577739_2020-03-31">
+    <entity>
+      <identifier scheme="http://www.ffiec.gov/cdr">2577739</identifier>
+    </entity>
+    <period>
+      <instant>2020-03-31</instant>
+    </period>
+  </context>
+  <context id="CD_2577739_2020-03-31">
+    <entity>
+      <identifier scheme="http://www.ffiec.gov/cdr">2577739</identifier>
+    </entity>
+    <period>
+      <startDate>2020-01-01</startDate>
+      <endDate>2020-03-31</endDate>
+    </period>
+  </context>
+  <unit id="USD">
+    <measure>iso4217:USD</measure>
+  </unit>  
+  <unit id="PURE">
+    <measure>pure</measure>
+  </unit>  
+  <unit id="NON-MONETARY">
+    <measure>ffieci:nonMonetary</measure>
+  </unit>  
+  <cc:RCONHK11 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">23988000</cc:RCONHK11>
+  <cc:RCONHK12 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">4854000</cc:RCONHK12>
+  <cc:RCONHK13 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">20631000</cc:RCONHK13>
+  <cc:RCONHK14 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">2873000</cc:RCONHK14>
+  <cc:RCONHK15 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1318000</cc:RCONHK15>
+  <cc:RCONHK16 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">26214000</cc:RCONHK16>
+  <cc:RCON3000 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3000>
+  <cc:RCON3411 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3411>
+  <cc:RCONJ464 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONJ464>
+  <cc:RCON3548 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3548>
+  <cc:RCONB530 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">2677000</cc:RCONB530>
+  <cc:RIADG377 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADG377>
+  <cc:RCONK156 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK156>
+  <cc:RIAD4107 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">1546000</cc:RIAD4107>
+  <cc:RCONB557 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB557>
+  <cc:RCONB538 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB538>
+  <cc:RCONB539 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">127000</cc:RCONB539>
+  <cc:RCONK137 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">484000</cc:RCONK137>
+  <cc:RCONA345 contextRef="CI_2577739_2020-03-31">false</cc:RCONA345>
+  <cc:RCONA346 contextRef="CI_2577739_2020-03-31">false</cc:RCONA346>
+  <cc:RIAD0093 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">85000</cc:RIAD0093>
+  <cc:RCOALB58 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOALB58>
+  <cc:RCONB549 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">54698000</cc:RCONB549>
+  <cc:RCON3499 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3499>
+  <cc:RCON3819 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">9000</cc:RCON3819>
+  <cc:RIAD4605 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">1000</cc:RIAD4605>
+  <cc:RIADB526 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADB526>
+  <cc:RIAD4093 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">938000</cc:RIAD4093>
+  <cc:RCON3545 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3545>
+  <cc:RCONK223 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK223>
+  <cc:RCON1744 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1744>
+  <cc:RCONG313 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG313>
+  <cc:RIAD4608 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">1000</cc:RIAD4608>
+  <cc:RCON1741 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1741>
+  <cc:RCON1742 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1742>
+  <cc:RCON1743 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1743>
+  <cc:RCON2948 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">177503000</cc:RCON2948>
+  <cc:RIADB527 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADB527>
+  <cc:RCON2651 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2651>
+  <cc:RCON2938 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">796000</cc:RCON2938>
+  <cc:RIADB522 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1150000</cc:RIADB522>
+  <cc:RCONF057 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF057>
+  <cc:RCONJF76 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONJF76>
+  <cc:RCOAS540 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAS540>
+  <cc:RCOAP844 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">2677000</cc:RCOAP844>
+  <cc:RCOAP845 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP845>
+  <cc:RCOAP846 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP846>
+  <cc:RCOAP847 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP847>
+  <cc:RCOAP840 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">21723000</cc:RCOAP840>
+  <cc:RCOAP841 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">233000</cc:RCOAP841>
+  <cc:RCON3838 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3838>
+  <cc:RCOAP843 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP843>
+  <cc:RCONF052 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">123</cc:RCONF052>
+  <cc:RIADB507 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADB507>
+  <cc:RCONA556 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">22000</cc:RCONA556>
+  <cc:RCONA557 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">208000</cc:RCONA557>
+  <cc:RCONA554 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">58467000</cc:RCONA554>
+  <cc:RCONA555 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONA555>
+  <cc:RCONA552 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">7356000</cc:RCONA552>
+  <cc:RCONA553 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">42055000</cc:RCONA553>
+  <cc:RCONF045 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3755000</cc:RCONF045>
+  <cc:RCONA551 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">8411000</cc:RCONA551>
+  <cc:RCONF058 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF058>
+  <cc:RCONF182 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF182>
+  <cc:RCONF183 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF183>
+  <cc:RCONF180 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF180>
+  <cc:RSSD9017 contextRef="CI_2577739_2020-03-31">Bank Of Jackson, The</cc:RSSD9017>
+  <cc:RCON2165 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2165>
+  <cc:RCOAQ258 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAQ258>
+  <cc:RCON2385 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">106349000</cc:RCON2385>
+  <cc:RCON5508 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON5508>
+  <cc:RCON5509 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON5509>
+  <cc:RCON2143 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">233000</cc:RCON2143>
+  <cc:RCON3646 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">60000</cc:RCON3646>
+  <cc:RCONB836 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB836>
+  <cc:RCONB835 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB835>
+  <cc:RCONB834 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB834>
+  <cc:RCON2145 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3498000</cc:RCON2145>
+  <cc:RCONJ454 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONJ454>
+  <cc:RCON2148 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2148>
+  <cc:RCONF159 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">6293000</cc:RCONF159>
+  <cc:RCON5369 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">922000</cc:RCON5369>
+  <cc:RIADHT69 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">456000</cc:RIADHT69>
+  <cc:RCONK040 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK040>
+  <cc:RCON2200 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">167032000</cc:RCON2200>
+  <cc:RCON2203 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">5715000</cc:RCON2203>
+  <cc:RCON2202 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2202>
+  <cc:RCON1607 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1607>
+  <cc:RCON1606 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">120000</cc:RCON1606>
+  <cc:RIAD4507 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">474000</cc:RIAD4507>
+  <cc:RCONF055 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF055>
+  <cc:RCONA558 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONA558>
+  <cc:RCON3815 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3815>
+  <cc:RCON3814 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1924000</cc:RCON3814>
+  <cc:RCON3190 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3190>
+  <cc:RIAD4092 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">321000</cc:RIAD4092>
+  <cc:RCONHK17 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">26875000</cc:RCONHK17>
+  <cc:RCOAB530 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">2677000</cc:RCOAB530>
+  <cc:RIAD4508 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">26000</cc:RIAD4508>
+  <cc:RCONKX18 contextRef="CI_2577739_2020-03-31">false</cc:RCONKX18>
+  <cc:RCON3353 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">9602000</cc:RCON3353>
+  <cc:RCON3506 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3506>
+  <cc:RCON3507 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3507>
+  <cc:RCONK151 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK151>
+  <cc:RCON3505 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3505>
+  <cc:RCONK157 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK157>
+  <cc:RCONK154 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK154>
+  <cc:RCON3500 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3500>
+  <cc:RCON3501 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3501>
+  <cc:RIADB492 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADB492>
+  <cc:RCON2746 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2746>
+  <cc:RCONF056 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF056>
+  <cc:RCONK213 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">16000</cc:RCONK213>
+  <cc:RCON3230 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3511000</cc:RCON3230>
+  <cc:RCONK215 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK215>
+  <cc:RCONK214 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK214>
+  <cc:RCONK217 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK217>
+  <cc:RCONK216 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK216>
+  <cc:RCON1771 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1771>
+  <cc:RCON1772 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">123053000</cc:RCON1772>
+  <cc:RCON1773 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">126720000</cc:RCON1773>
+  <cc:RCON5461 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON5461>
+  <cc:RCONB571 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB571>
+  <cc:RCONK655 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK655>
+  <cc:RCONK654 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">18684000</cc:RCONK654>
+  <cc:RCOAA224 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">189552000</cc:RCOAA224>
+  <cc:RCONK656 contextRef="CI_2577739_2020-03-31">false</cc:RCONK656>
+  <cc:RIAD4115 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">5000</cc:RIAD4115>
+  <cc:RCON1407 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1407>
+  <cc:RCON1406 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">378000</cc:RCON1406>
+  <cc:RCONA510 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONA510>
+  <cc:RCONA511 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONA511>
+  <cc:RCOAP857 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP857>
+  <cc:RCOAP850 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP850>
+  <cc:RCOAP852 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">18813000</cc:RCOAP852>
+  <cc:RSSD9050 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">34457</cc:RSSD9050>
+  <cc:RIADC217 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC217>
+  <cc:RIADC216 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC216>
+  <cc:RCON3387 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">10952000</cc:RCON3387>
+  <cc:RIADC218 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC218>
+  <cc:RCOAP858 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP858>
+  <cc:RCOAP859 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">18813000</cc:RCOAP859>
+  <cc:RIAD5409 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD5409>
+  <cc:RCONG803 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG803>
+  <cc:RCONA549 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">6016000</cc:RCONA549>
+  <cc:RCON3360 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">58600000</cc:RCON3360>
+  <cc:RCON2107 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1275000</cc:RCON2107>
+  <cc:RCON6558 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON6558>
+  <cc:RIAD4058 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">16000</cc:RIAD4058>
+  <cc:RCON3365 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">4284000</cc:RCON3365>
+  <cc:RCON3368 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">189785000</cc:RCON3368>
+  <cc:RCONG320 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG320>
+  <cc:RCON1287 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1014000</cc:RCON1287>
+  <cc:RCON1286 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">994000</cc:RCON1286>
+  <cc:RCONA550 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1928000</cc:RCONA550>
+  <cc:RCON0352 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">8199000</cc:RCON0352>
+  <cc:RIAD4356 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4356>
+  <cc:RCONG314 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG314>
+  <cc:RCON8678 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">1231</cc:RCON8678>
+  <cc:RCON2210 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">25119000</cc:RCON2210>
+  <cc:RCON2213 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2213>
+  <cc:RCON2215 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">60683000</cc:RCON2215>
+  <cc:RCON2216 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2216>
+  <cc:RCOA7204 contextRef="CI_2577739_2020-03-31" unitRef="PURE" decimals="6">0.099250</cc:RCOA7204>
+  <cc:RCONFT09 contextRef="CI_2577739_2020-03-31">false</cc:RCONFT09>
+  <cc:RCONJ473 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">17525000</cc:RCONJ473>
+  <cc:RCON1797 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3077000</cc:RCON1797>
+  <cc:RIAD4070 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4070>
+  <cc:RCONC026 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONC026>
+  <cc:RCONG309 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG309>
+  <cc:RCONC230 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONC230>
+  <cc:RCONF158 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3606000</cc:RCONF158>
+  <cc:RCONC237 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONC237>
+  <cc:RCONC236 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">242000</cc:RCONC236>
+  <cc:RCONC239 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONC239>
+  <cc:RCONC238 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONC238>
+  <cc:RCONHT80 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHT80>
+  <cc:RSSD9200 contextRef="CI_2577739_2020-03-31">TN</cc:RSSD9200>
+  <cc:RCON6648 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">9703000</cc:RCON6648>
+  <cc:RCONG378 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">14588000</cc:RCONG378>
+  <cc:RCON3163 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">233000</cc:RCON3163>
+  <cc:RCON2150 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">57000</cc:RCON2150>
+  <cc:RIADC898 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC898>
+  <cc:RCON1737 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1737>
+  <cc:RCONG322 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG322>
+  <cc:RCONG323 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG323>
+  <cc:RIADC893 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC893>
+  <cc:RIADC892 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC892>
+  <cc:RIADC891 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC891>
+  <cc:RIADC897 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC897>
+  <cc:RCON1738 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1738>
+  <cc:RCON1739 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1739>
+  <cc:RIADC894 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC894>
+  <cc:RCONK202 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK202>
+  <cc:RCOALE74 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">1</cc:RCOALE74>
+  <cc:RCONK207 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3082000</cc:RCONK207>
+  <cc:RCON3632 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">12024000</cc:RCON3632>
+  <cc:RCONF181 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF181>
+  <cc:RCON5368 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">498000</cc:RCON5368>
+  <cc:RCONK155 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK155>
+  <cc:RCONF063 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF063>
+  <cc:RCONF062 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF062>
+  <cc:RCONF061 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF061>
+  <cc:RCONF060 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF060>
+  <cc:RCON0211 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON0211>
+  <cc:RCONF065 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF065>
+  <cc:RCONF064 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF064>
+  <cc:RCOAP864 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP864>
+  <cc:RCOAP865 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP865>
+  <cc:RCOAP860 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP860>
+  <cc:RCOAP861 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP861>
+  <cc:RCOAP862 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP862>
+  <cc:RCOAP863 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP863>
+  <cc:RIAD4217 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">143000</cc:RIAD4217>
+  <cc:RCONK653 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">1</cc:RCONK653>
+  <cc:RCONA574 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">11801000</cc:RCONA574>
+  <cc:RCONA575 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1454000</cc:RCONA575>
+  <cc:RCONA572 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">8000000</cc:RCONA572>
+  <cc:RCONA573 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">11759000</cc:RCONA573>
+  <cc:RCONA570 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">4824000</cc:RCONA570>
+  <cc:RCONA571 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">6820000</cc:RCONA571>
+  <cc:RIADC896 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC896>
+  <cc:RCONG319 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG319>
+  <cc:RCONF160 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">8000000</cc:RCONF160>
+  <cc:RCONF161 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">6324000</cc:RCONF161>
+  <cc:RCON5400 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON5400>
+  <cc:RCONFT00 contextRef="CD_2577739_2020-03-31">false</cc:RCONFT00>
+  <cc:RCONF164 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3857000</cc:RCONF164>
+  <cc:RCONF165 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1006000</cc:RCONF165>
+  <cc:RCON3355 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3355>
+  <cc:RIAD4313 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">8000</cc:RIAD4313>
+  <cc:RCONF059 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF059>
+  <cc:RCOAP742 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">7022000</cc:RCOAP742>
+  <cc:RIAD3196 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">63000</cc:RIAD3196>
+  <cc:RCON1460 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">40000</cc:RCON1460>
+  <cc:RCONG467 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG467>
+  <cc:RCONK150 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK150>
+  <cc:RCON3433 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3433>
+  <cc:RCON3432 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3432>
+  <cc:RCON3430 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3430>
+  <cc:RIADFT29 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADFT29>
+  <cc:RSSD9130 contextRef="CI_2577739_2020-03-31">Jackson</cc:RSSD9130>
+  <cc:RIADFT28 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADFT28>
+  <cc:RCONG321 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG321>
+  <cc:RCONF172 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF172>
+  <cc:RCON3466 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">26922000</cc:RCON3466>
+  <cc:RCON3465 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">18228000</cc:RCON3465>
+  <cc:RCONA559 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1699000</cc:RCONA559>
+  <cc:RCON6559 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON6559>
+  <cc:RIAD4012 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">123000</cc:RIAD4012>
+  <cc:RIAD4010 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">744000</cc:RIAD4010>
+  <cc:RCON1590 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">5000</cc:RCON1590>
+  <cc:RCONHT56 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">2356000</cc:RCONHT56>
+  <cc:RCONHT55 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHT55>
+  <cc:RCON3123 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1120000</cc:RCON3123>
+  <cc:RCONHK28 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHK28>
+  <cc:RCONHT52 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHT52>
+  <cc:RCONHT51 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHT51>
+  <cc:RCONHT50 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHT50>
+  <cc:RCON8782 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON8782>
+  <cc:RCON8783 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON8783>
+  <cc:RCON3485 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">33345000</cc:RCON3485>
+  <cc:RCONK270 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">830000</cc:RCONK270>
+  <cc:RCONHT59 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHT59>
+  <cc:RCONHT58 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHT58>
+  <cc:RCONK041 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK041>
+  <cc:RIADK129 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADK129>
+  <cc:RCONHK26 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHK26>
+  <cc:RCONHK27 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHK27>
+  <cc:RCON2365 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2365>
+  <cc:RCONJ458 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONJ458>
+  <cc:RCONG310 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG310>
+  <cc:RCONG311 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG311>
+  <cc:RCONG312 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG312>
+  <cc:RCONA590 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONA590>
+  <cc:RIADC895 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC895>
+  <cc:RIAD3521 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD3521>
+  <cc:RCONK143 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK143>
+  <cc:RCONG317 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG317>
+  <cc:RCONG318 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG318>
+  <cc:RCOAKX80 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAKX80>
+  <cc:RCOAKX81 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">9000</cc:RCOAKX81>
+  <cc:RCOAKX82 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">9577000</cc:RCOAKX82>
+  <cc:RCOAKX83 contextRef="CI_2577739_2020-03-31" unitRef="PURE" decimals="6">0.048071</cc:RCOAKX83>
+  <cc:RCON5460 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON5460>
+  <cc:RCONB552 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB552>
+  <cc:RCONB550 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">96492000</cc:RCONB550>
+  <cc:RCONB551 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">270000</cc:RCONB551>
+  <cc:RCONG315 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG315>
+  <cc:RCONG472 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG472>
+  <cc:RCONG471 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG471>
+  <cc:RIAD3217 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">21042000</cc:RIAD3217>
+  <cc:RCON6810 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">41246000</cc:RCON6810>
+  <cc:RCONB558 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">993000</cc:RCONB558>
+  <cc:RCONB559 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">2459000</cc:RCONB559>
+  <cc:RCONB556 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1670000</cc:RCONB556>
+  <cc:RIADC233 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC233>
+  <cc:RIAD3210 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">21723000</cc:RIAD3210>
+  <cc:RIADC235 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC235>
+  <cc:RIADC234 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC234>
+  <cc:RIAD4267 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4267>
+  <cc:RIAD4266 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4266>
+  <cc:RCONC027 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONC027>
+  <cc:RCONHT54 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHT54>
+  <cc:RCONG470 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG470>
+  <cc:RIADB489 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">22000</cc:RIADB489>
+  <cc:RIADB488 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">5000</cc:RIADB488>
+  <cc:RCONC229 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">80000</cc:RCONC229>
+  <cc:RIAD3123 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1120000</cc:RIAD3123>
+  <cc:RCON2160 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3435000</cc:RCON2160>
+  <cc:RCONA130 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONA130>
+  <cc:RIADB508 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">21042000</cc:RIADB508>
+  <cc:RIADA530 contextRef="CI_2577739_2020-03-31">false</cc:RIADA530>
+  <cc:RCON0081 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">4335000</cc:RCON0081>
+  <cc:RCON2168 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">349000</cc:RCON2168>
+  <cc:RIAD4498 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4498>
+  <cc:RCONB577 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB577>
+  <cc:RIADGW44 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADGW44>
+  <cc:RIADFT32 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADFT32>
+  <cc:RIADFT31 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADFT31>
+  <cc:RIADFT30 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADFT30>
+  <cc:RCONK201 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK201>
+  <cc:RCON3381 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1405000</cc:RCON3381>
+  <cc:RCON0416 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">37212000</cc:RCON0416>
+  <cc:RCON6724 contextRef="CI_2577739_2020-03-31">1a</cc:RCON6724>
+  <cc:RCONK152 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK152>
+  <cc:RIAD4415 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4415>
+  <cc:RIAD4060 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">753000</cc:RIAD4060>
+  <cc:RIAD4065 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4065>
+  <cc:RCONFT07 contextRef="CI_2577739_2020-03-31">false</cc:RCONFT07>
+  <cc:RCONFT06 contextRef="CI_2577739_2020-03-31">false</cc:RCONFT06>
+  <cc:RCOAKW03 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">189785000</cc:RCOAKW03>
+  <cc:RCONFT03 contextRef="CI_2577739_2020-03-31">false</cc:RCONFT03>
+  <cc:RCOAKW00 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">12024000</cc:RCOAKW00>
+  <cc:RCOALB59 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOALB59>
+  <cc:RCONHT60 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHT60>
+  <cc:RCONK043 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK043>
+  <cc:RCONK042 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK042>
+  <cc:RCONG316 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG316>
+  <cc:RCOAP848 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP848>
+  <cc:RCONA545 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">0</cc:RCONA545>
+  <cc:RIADC232 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADC232>
+  <cc:RCONK044 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK044>
+  <cc:RCON2377 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2377>
+  <cc:RCON1227 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1227>
+  <cc:RCON1226 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1226>
+  <cc:RCON1228 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1228>
+  <cc:RCONF233 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">2078000</cc:RCONF233>
+  <cc:RIADG103 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADG103>
+  <cc:RCONF237 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF237>
+  <cc:RCONF236 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">167449000</cc:RCONF236>
+  <cc:RIAD4518 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">2000</cc:RIAD4518>
+  <cc:RIADG104 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">433000</cc:RIADG104>
+  <cc:RCONG466 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG466>
+  <cc:RCONG465 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG465>
+  <cc:RCONHT53 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHT53>
+  <cc:RCONG376 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG376>
+  <cc:RIADHK03 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">186000</cc:RIADHK03>
+  <cc:RCON6164 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3855000</cc:RCON6164>
+  <cc:RCON6165 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">4</cc:RCON6165>
+  <cc:RIADJJ33 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADJJ33>
+  <cc:RCOA8274 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">18813000</cc:RCOA8274>
+  <cc:RCONK147 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK147>
+  <cc:RCONK144 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK144>
+  <cc:RCONK145 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK145>
+  <cc:RCONG468 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG468>
+  <cc:RCONK148 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK148>
+  <cc:RCONK149 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK149>
+  <cc:RIADB497 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">40000</cc:RIADB497>
+  <cc:RIADB496 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADB496>
+  <cc:RCOA2170 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">199226000</cc:RCOA2170>
+  <cc:RCON2122 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">59476000</cc:RCON2122>
+  <cc:RCON2123 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2123>
+  <cc:RCON5510 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">57000</cc:RCON5510>
+  <cc:RCON5511 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON5511>
+  <cc:RCON1766 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">10623000</cc:RCON1766>
+  <cc:RCONK038 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK038>
+  <cc:RCON3200 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3200>
+  <cc:RCON9999 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">20200331</cc:RCON9999>
+  <cc:RCON3495 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3495>
+  <cc:RCON8498 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">119703000</cc:RCON8498>
+  <cc:RIAD9106 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">0</cc:RIAD9106>
+  <cc:RIAD5415 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD5415>
+  <cc:RIAD5523 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD5523>
+  <cc:RCONC988 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONC988>
+  <cc:RCONC989 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONC989>
+  <cc:RCON5367 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">14588000</cc:RCON5367>
+  <cc:RCON6636 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">141913000</cc:RCON6636>
+  <cc:RCON6631 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">25119000</cc:RCON6631>
+  <cc:RCONK153 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK153>
+  <cc:RCONB993 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB993>
+  <cc:RCONB995 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">8489000</cc:RCONB995>
+  <cc:RIADB486 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">39000</cc:RIADB486>
+  <cc:RCON5398 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON5398>
+  <cc:RCON5399 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON5399>
+  <cc:RCON3821 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3821>
+  <cc:RCONK659 contextRef="CI_2577739_2020-03-31">false</cc:RCONK659>
+  <cc:RIAD4020 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">15000</cc:RIAD4020>
+  <cc:RIADC079 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">31000</cc:RIADC079>
+  <cc:RCONB987 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">2102000</cc:RCONB987>
+  <cc:RCONJH83 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONJH83>
+  <cc:RIAD4073 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">391000</cc:RIAD4073>
+  <cc:RCONK220 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK220>
+  <cc:RCONB989 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB989>
+  <cc:RIAD4460 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4460>
+  <cc:RIADHK04 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">73000</cc:RIADHK04>
+  <cc:RIAD4079 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">176000</cc:RIAD4079>
+  <cc:RCONFT17 contextRef="CI_2577739_2020-03-31">false</cc:RCONFT17>
+  <cc:RCONFT16 contextRef="CI_2577739_2020-03-31">false</cc:RCONFT16>
+  <cc:RCONFT13 contextRef="CI_2577739_2020-03-31">false</cc:RCONFT13>
+  <cc:RCONHK25 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">203000</cc:RCONHK25>
+  <cc:RCONFT11 contextRef="CI_2577739_2020-03-31">false</cc:RCONFT11>
+  <cc:RIAD4080 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">68000</cc:RIAD4080>
+  <cc:RCON3484 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3484>
+  <cc:RCOALB60 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOALB60>
+  <cc:RCOALB61 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOALB61>
+  <cc:RCONF173 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF173>
+  <cc:RCONB562 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">2373000</cc:RCONB562>
+  <cc:RCONB563 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">46381000</cc:RCONB563>
+  <cc:RCONB560 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">112957000</cc:RCONB560>
+  <cc:RCONB561 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB561>
+  <cc:RIADK205 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADK205>
+  <cc:RCONJJ34 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONJJ34>
+  <cc:RIADK206 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADK206>
+  <cc:RCONJ459 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1223000</cc:RCONJ459>
+  <cc:RIAD4074 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">1155000</cc:RIAD4074>
+  <cc:RCONB575 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB575>
+  <cc:RIAD4180 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">21000</cc:RIAD4180>
+  <cc:RIAD4230 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4230>
+  <cc:RIAD5416 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">68000</cc:RIAD5416>
+  <cc:RCON6560 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON6560>
+  <cc:RIAD5412 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD5412>
+  <cc:RIAD5411 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD5411>
+  <cc:RIAD5410 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD5410>
+  <cc:RCOAP842 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP842>
+  <cc:RIAD4628 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4628>
+  <cc:RIAD4769 contextRef="CI_2577739_2020-03-31">false</cc:RIAD4769>
+  <cc:RCON2130 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2130>
+  <cc:RCON3210 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">21723000</cc:RCON3210>
+  <cc:RCON2520 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2520>
+  <cc:RCONB529 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">57434000</cc:RCONB529>
+  <cc:RCONJ457 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1558000</cc:RCONJ457>
+  <cc:RIADB509 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADB509>
+  <cc:RCONF047 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">288000</cc:RCONF047>
+  <cc:RIADB485 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADB485>
+  <cc:RCONK146 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK146>
+  <cc:RIAD4150 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">24</cc:RIAD4150>
+  <cc:RIAD4499 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4499>
+  <cc:RCON3656 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3656>
+  <cc:RCON6979 contextRef="CI_2577739_2020-03-31">false</cc:RCON6979>
+  <cc:RCOAP875 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">233000</cc:RCOAP875>
+  <cc:RCONK222 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">25485000</cc:RCONK222>
+  <cc:RIAD4340 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">433000</cc:RIAD4340>
+  <cc:RCONC752 contextRef="CI_2577739_2020-03-31">FFIEC051</cc:RCONC752>
+  <cc:RCON1420 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1454000</cc:RCON1420>
+  <cc:RCONK142 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK142>
+  <cc:RCON5512 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON5512>
+  <cc:RCONA566 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3842000</cc:RCONA566>
+  <cc:RCONA567 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3919000</cc:RCONA567>
+  <cc:RCONA564 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1748000</cc:RCONA564>
+  <cc:RCONA565 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1419000</cc:RCONA565>
+  <cc:RCONA562 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONA562>
+  <cc:RCON3164 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3164>
+  <cc:RCONA560 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">558000</cc:RCONA560>
+  <cc:RCONA561 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONA561>
+  <cc:RCON2170 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">199226000</cc:RCON2170>
+  <cc:RCON1746 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1746>
+  <cc:RCONA568 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3323000</cc:RCONA568>
+  <cc:RCONA569 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">257000</cc:RCONA569>
+  <cc:RCONF176 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF176>
+  <cc:RCONF177 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF177>
+  <cc:RCONF174 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF174>
+  <cc:RCONF175 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF175>
+  <cc:RCONHK08 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">17364000</cc:RCONHK08>
+  <cc:RCONHK09 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">2738000</cc:RCONHK09>
+  <cc:RCONF178 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF178>
+  <cc:RCONF179 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF179>
+  <cc:RIADK133 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADK133>
+  <cc:RCONB867 contextRef="CI_2577739_2020-03-31">false</cc:RCONB867>
+  <cc:RCONF051 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">82361000</cc:RCONF051>
+  <cc:RCOAKX77 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAKX77>
+  <cc:RCONHK05 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHK05>
+  <cc:RCONHK06 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHK06>
+  <cc:RCONHK07 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">6624000</cc:RCONHK07>
+  <cc:RCON2530 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">9857000</cc:RCON2530>
+  <cc:RCON1608 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">230000</cc:RCON1608>
+  <cc:RCOAKX78 contextRef="CI_2577739_2020-03-31" unitRef="PURE" decimals="6">0</cc:RCOAKX78>
+  <cc:RCOAKX79 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">9568000</cc:RCOAKX79>
+  <cc:RCOA3128 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOA3128>
+  <cc:RCON0213 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON0213>
+  <cc:RIAD4521 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4521>
+  <cc:RIAD4135 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">474000</cc:RIAD4135>
+  <cc:RCONB528 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">58554000</cc:RCONB528>
+  <cc:RCONB576 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONB576>
+  <cc:RIAD4522 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4522>
+  <cc:RCONK218 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK218>
+  <cc:RCON2236 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON2236>
+  <cc:RCON3049 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">709000</cc:RCON3049>
+  <cc:RCONJ474 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">29676000</cc:RCONJ474>
+  <cc:RCON0071 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">490000</cc:RCON0071>
+  <cc:RCONHT61 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONHT61>
+  <cc:RCON5591 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON5591>
+  <cc:RCONK652 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">189785000</cc:RCONK652>
+  <cc:RIAD4635 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">31000</cc:RIAD4635>
+  <cc:TEXT4087 contextRef="CI_2577739_2020-03-31">www.bankofjackson.com</cc:TEXT4087>
+  <cc:RSSD9220 contextRef="CI_2577739_2020-03-31">38305</cc:RSSD9220>
+  <cc:RCONF046 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">108</cc:RCONF046>
+  <cc:RCON1754 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON1754>
+  <cc:RIAD4638 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">31000</cc:RIAD4638>
+  <cc:RCONHT57 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">2487000</cc:RCONHT57>
+  <cc:RIAD4644 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4644>
+  <cc:RCON1752 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">586000</cc:RCON1752>
+  <cc:RCONG308 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG308>
+  <cc:RIADB514 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADB514>
+  <cc:RIADB515 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADB515>
+  <cc:RCON8497 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON8497>
+  <cc:RCON8496 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON8496>
+  <cc:RIADB510 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADB510>
+  <cc:RIADB511 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">248000</cc:RIADB511>
+  <cc:RIAD3584 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD3584>
+  <cc:RIAD3585 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD3585>
+  <cc:RCON3494 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3494>
+  <cc:RCON3493 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON3493>
+  <cc:RIAD4300 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">433000</cc:RIAD4300>
+  <cc:RIAD4301 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">456000</cc:RIAD4301>
+  <cc:RIAD4302 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">23000</cc:RIAD4302>
+  <cc:RCON8499 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">123219000</cc:RCON8499>
+  <cc:RCON3645 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">417000</cc:RCON3645>
+  <cc:RIAD3588 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD3588>
+  <cc:RIAD3589 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD3589>
+  <cc:RCOAP838 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">1</cc:RCOAP838>
+  <cc:RCOAP839 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAP839>
+  <cc:RIADHT74 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADHT74>
+  <cc:RIADHT73 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIADHT73>
+  <cc:RCONF049 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">81045000</cc:RCONF049>
+  <cc:RCONF048 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">1</cc:RCONF048>
+  <cc:RIAD4470 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RIAD4470>
+  <cc:RCONG469 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONG469>
+  <cc:RCON5459 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON5459>
+  <cc:RCON3300 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">199226000</cc:RCON3300>
+  <cc:RCONF050 contextRef="CI_2577739_2020-03-31" unitRef="NON-MONETARY" decimals="0">4387</cc:RCONF050>
+  <cc:RCON3839 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">3511000</cc:RCON3839>
+  <cc:RIAD4436 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">280000</cc:RIAD4436>
+  <cc:RIAD4435 contextRef="CD_2577739_2020-03-31" unitRef="USD" decimals="0">286000</cc:RIAD4435>
+  <cc:RCOAB596 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCOAB596>
+  <cc:RCONF577 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONF577>
+  <cc:RCON1403 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">310000</cc:RCON1403>
+  <cc:RCONK037 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK037>
+  <cc:RCONK036 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK036>
+  <cc:RCON2930 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">1982000</cc:RCON2930>
+  <cc:RCONA247 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">11919000</cc:RCONA247>
+  <cc:RCON6550 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCON6550>
+  <cc:RCONK039 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">0</cc:RCONK039>
+  <cc:RCONA248 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">7966000</cc:RCONA248>
+  <cc:RCONG105 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">21723000</cc:RCONG105>
+  <cc:RCONHK10 contextRef="CI_2577739_2020-03-31" unitRef="USD" decimals="0">502000</cc:RCONHK10>
+</xbrl>
