@@ -26,6 +26,10 @@ if __name__ == "__main__":
 
     database = mongo_client[args.database]
     collection = database[args.collection]
+    if collection.drop(): 
+        print('Collection dropped successfully') 
+    else: 
+        print('Collection not present')
     data = []
     # sub_directories = [x[0] for x in os.walk(args.directory)]
     # for directory in sub_directories:
