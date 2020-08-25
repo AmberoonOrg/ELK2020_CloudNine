@@ -1,0 +1,11 @@
+python main.py -d alephdata -c us_cia_world_leaders -f us_cia_world_leaders.json
+python main.py -d alephdata -c everypolitician -f everypolitician.json
+python main.py -d alephdata -c eu_meps -f eu_meps.json
+python main.py -d alephdata -c un_sc_sanctions -f un_sc_sanctions.json
+python main.py -d alephdata -c ch_seco_sanctions -f ch_seco_sanctions.json
+python main.py -d alephdata -c us_ofac -f us_ofac.json
+python main.py -d alephdata -c us_bis_denied -f us_bis_denied.json
+python main.py -d alephdata -c gb_hmt_sanctions -f gb_hmt_sanctions.json
+python main.py -d alephdata -c eu_eeas_sanctions -f eu_eeas_sanctions.json
+python main.py -d alephdata -c au_dfat_sanctions -f au_dfat_sanctions.json
+python main.py -d alephdata -c ca_dfatd_sema_sanctions -f ca_dfatd_sema_sanctions.json
