@@ -11,6 +11,12 @@
 
 NOTE: You need to create different spaces and import the saved objects independently, the dashboard ids don't change hence the custom left sidebar items will work as expected.
 
+### Notes while migrating kibana instances across cloud providers
+- You need to create different spaces and import the saved objects independently, the dashboard ids don't change hence the custom left sidebar items will work as expected.
+- The users aren't migrated as part of the saved objects migration process. They get deleted when you deleted meta indexes in Elasticsearch (.kibana, .security, etc.)
+- The meta indexes are ought to be deleted else it would result in inconsistent state with uuids being different from that of the cluster state.
+- Make sure to change the `elasticsearch.username` and `elasticsearch.password` in kibana.yml whenever one changes it in Kibana using the security settings.
+
 ### Steps to enable startup of services on boot
 
 ```sh
