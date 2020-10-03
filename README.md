@@ -24,3 +24,15 @@ $ sudo systemctl kibana enable
 $ sudo systemctl elasticsearch enable
 $ sudo systemctl mongod enable
 ```
+
+### Steps to enable the cron job on a vanilla machine
+```sh
+$ git clone <current-repository>
+$ crontab -e
+```
+Copy paste the below snippet
+```sh
+0 19 * * * cd /home/<username>/ELK2020_CloudNine/python_scripts/alephdata && ./automate_download.sh
+15 19 * * * cd /home/<username>/ELK2020_CloudNine/python_scripts/alephdata && ./insert_mongo.sh
+30 23 * * * cd /home/<username>/ELK2020_CloudNine/python_scripts/mongo_to_es && /usr/bin/python mongo_to_es_alpehdata.py
+```
