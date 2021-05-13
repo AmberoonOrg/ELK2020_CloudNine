@@ -4,6 +4,7 @@
 from elasticsearch import Elasticsearch, helpers
 import json
 import argparse
+import os
 
 def construct_document(key, value):
     document = {}
@@ -27,7 +28,7 @@ for dirpath, dnames, fnames in os.walk(folder):
     for f in fnames:
         if (f.endswith(".json")):
             print(f)
-            with open(f) as jsonFile:
+            with open(os.path.join(dirpath, f), header=0, low_memory=False, error_bad_lines=False) as jsonFile:
                 json = json.load(jsonFile)
                 documents = []
                 for key, value in json["properties"].iteritems():
